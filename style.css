@@ -144,7 +144,8 @@ background: rgba(229, 84, 115, 0.05);
     width: 1922px;
     height: 620px;
     flex-shrink: 0;
-
+    justify-content: space-between;
+    
 }
 .offer-title{
     color: #272727;
@@ -178,15 +179,50 @@ margin-right: 429px;
     
 }
 .sign-up{
- text-align: center;
- margin-top: 32px;
- margin-bottom: 162px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 162px;
     
 }
+/* Bonus part */
+.bonus{
+    border-radius: 8px;
+    width: 1440px;
+height: 320px;
+flex-shrink: 0;
+    gap: 100px;
+    margin-top: 150px;
+    margin-left: 200px;
+align-items: center;
+justify-content: center;
+background: rgba(39, 39, 39, 0.05);
+display: flex;
+}
+.features-img{
+width: 88px;
+height: 88px;
+display: block;
+  margin: 0 auto;
+}
+.features-text{
+    color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-size: 24px;
+padding-top: 24px;
+font-weight: 600;
+line-height: 35px; 
+}
+
+
+
 .instagram{
     margin-top: 128px;
     justify-items: center;
 }
+
+
+
+/* Deals */
 .get-deals{
     margin: 128px;
     width: 1440px;
