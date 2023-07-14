@@ -1,0 +1,254 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  
+}
+
+header {
+  width: 1920px;
+  height: 850px;
+  flex-shrink: 0;
+  background-color: rgba(229, 84, 115, 0.1);
+  background-position: 100%;
+}
+.main-header {
+  display: flex;
+
+}
+.header-details {
+  width: 708px;
+  margin: 40px 90px 147px 240px;
+}
+.header-info {
+  color: #272727;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+.item-description {
+  width: 634px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  padding: 32px 0px 32px 0px;
+}
+.btn-primary {
+  display: inline-flex;
+  padding: 20px 43px 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: #e55473;
+  color: #ffffff;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: 0;
+  text-align: center;
+}
+
+.header-img {
+  width: 635px;
+  height: 800px;
+  margin-top: 50px;
+  position: right bottom;
+}
+.flowers {
+  /* width: 1920px; */
+  height: 850px;
+  padding: 178px 200px 0px 200px;
+}
+.tag {
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  text-align: center;
+  margin: 24px 63px 48px 63px;
+}
+.flower-im {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+.flower-show1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 110px 78px 0px 78px;
+  width: 464px;
+height: 538px;
+flex-shrink: 0;
+position: relative;
+}
+.flower-show2 {
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+    padding: 110px 78px 0px 78px;
+    width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  position: relative;
+
+}
+.flower-show3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 110px 78px 0px 78px;
+    width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  position: relative;
+  }
+.flower-img {
+  width: 310px;
+  height: 428px;
+  flex-shrink: 0;
+ 
+}
+
+.flower-name {
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 145.833% */
+  text-decoration-line: underline;
+}
+
+/* Offer section */
+.offer{
+    display: flex;
+    border-radius: 8px;
+    margin-top: 128px;
+background: rgba(229, 84, 115, 0.05);
+    gap: 186px;
+    align-items: center;
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+
+}
+.offer-title{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+text-align: center;
+}
+.off{
+    color: #E55473;
+font-size: 40px;
+font-weight: 800;
+}
+.offer-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin-top: 24px;
+}
+.offer-img{
+    width: 318px;
+height: 420px;
+flex-shrink: 0;
+margin-right: 429px;
+
+}
+.offer-portion1{
+    margin-left: 395px;
+    margin-top: 230px;
+    
+}
+.sign-up{
+ text-align: center;
+ margin-top: 32px;
+ margin-bottom: 162px;
+    
+}
+.instagram{
+    margin-top: 128px;
+    justify-items: center;
+}
+.get-deals{
+    margin: 128px;
+    width: 1440px;
+height: 449px;
+ background-image: url('./Flower Asset/Rectangle 9.png');
+ background-position: center;
+}
+.get-deals>h3{
+    padding-top: 122px;
+}
+.more-pic{
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+    justify-content: center;
+
+}
+.more-flower{
+    width: 342px;
+height: 396px;
+}
+.email,.subcription{
+    display: inline;
+}
+.email>input{
+    width: 700px;
+height: 64px;
+border-radius: 8px;
+background: #FFF;
+border: none;
+margin-right: 16px;
+margin-left: 287px;
+}
+input::placeholder{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+padding: 22px;
+}
+.flower-shop{
+    background: #111010;
+    width: 1922px;
+height: 449px;
+
+}
+.flower-shop>.tag{
+    padding-top: 128px;
+    color: #E55473;
+}
+.flower-shop>.description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+}
+.right{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#shop{
+    color: #FFF; 
+}
